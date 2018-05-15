@@ -1,0 +1,12 @@
+Source: ros-kinetic-summit-xl-sim-bringup
+Section: misc
+Priority: extra
+Maintainer: Carlos Villar <cvillar@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslaunch
+Homepage: http://ros.org/wiki/summit_xl_sim_bringup
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-summit-xl-sim-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-gazebo-ros, ros-kinetic-summit-xl-control, ros-kinetic-summit-xl-description, ros-kinetic-summit-xl-pad
+Description: Launch files for Summit XL simulation.
